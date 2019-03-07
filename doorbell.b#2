@@ -1985,7 +1985,7 @@ design rules under a new name.</description>
 <element name="C3" library="resistor" library_urn="urn:adsk.eagle:library:348" package="E5-5" package3d_urn="urn:adsk.eagle:package:23367/2" value="2.2uF" x="25.44" y="55.73" smashed="yes" rot="R270">
 <attribute name="NAME" x="27.9292875" y="54.339409375" size="1.27" layer="25" ratio="10" rot="R225"/>
 </element>
-<element name="IC1" library="ic-package" library_urn="urn:adsk.eagle:library:239" package="SOCKET-16" package3d_urn="urn:adsk.eagle:package:14441/1" value="RTS-933-9A" x="28.79" y="44.3" smashed="yes">
+<element name="IC1" library="ic-package" library_urn="urn:adsk.eagle:library:239" package="SOCKET-16" package3d_urn="urn:adsk.eagle:package:14441/1" value="" x="28.79" y="44.3" smashed="yes">
 <attribute name="NAME" x="24.153" y="43.376" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="22.44" y="43.665" size="1.27" layer="27" ratio="10"/>
 </element>
