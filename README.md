@@ -24,11 +24,15 @@ Plays various door bell tunes when the switch is pressed.
 The RTS-993-9A is a CMOS LSI that plays its preprogrammed melodious piano song tunes when triggered. These songs are stored in its internal ROM and are played sequentially.
 
 ![Pinout](https://github.com/jonathanrjpereira/Multi-Tune-Door-Bell/blob/master/img/pinout.png)
-![Pinout](https://github.com/jonathanrjpereira/Multi-Tune-Door-Bell/blob/master/img/pindescription.png)
+![Pin Description](https://github.com/jonathanrjpereira/Multi-Tune-Door-Bell/blob/master/img/pindescription.png)
 
 The oscillation frequency us used as a time base for tone and tempo generators, the accuracy of which affects the quality of the melody generator. Hence an 150Ω resistor is used to calibrate this frequency.
 
+![Block Diagram](https://github.com/jonathanrjpereira/Multi-Tune-Door-Bell/blob/master/img/BD.png)
+
 The circuit is configured in the One Shot mode. This means that the a different tune will play (sequentially) whenever the circuit is triggered.
+
+![Schematic](https://github.com/jonathanrjpereira/Multi-Tune-Door-Bell/blob/master/img/sch.png)
 
 A dynamic speaker is driven with an external NPN transistor.
 
