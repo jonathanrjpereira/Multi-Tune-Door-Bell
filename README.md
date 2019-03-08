@@ -26,13 +26,13 @@ The RTS-993-9A is a CMOS LSI that plays its preprogrammed melodious piano song t
 ![Pinout](https://github.com/jonathanrjpereira/Multi-Tune-Door-Bell/blob/master/img/pinout.svg)
 ![Pinout](https://github.com/jonathanrjpereira/Multi-Tune-Door-Bell/blob/master/img/pindescription.svg)
 
-The oscillation frequency us used as a time base for tone and tempo generators, the accuracy of which affects the quality of the melody generator.
+The oscillation frequency us used as a time base for tone and tempo generators, the accuracy of which affects the quality of the melody generator. Hence an 150Ω resistor is used to calibrate this frequency.
 
-The circuit is configured in the One Shot mode,
+The circuit is configured in the One Shot mode. This means that the a different tune will play (sequentially) whenever the circuit is triggered.
 
 A dynamic speaker is driven with an external NPN transistor.
 
-The Typical Operating voltage is 3V.
+The Typical Operating voltage of the IC is 3V. The absolute maximum supply voltage is 5V.
 
 You can find the IC Pinout and other details in the [Datasheet](http://www.aplusindia.net/aplusindia_data/productfiles/1442297344579_pdf.pdf).
 
